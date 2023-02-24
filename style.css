@@ -9,7 +9,23 @@ body, html{
     height: 15vh;
     background-color: gray;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+#navbar-container{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-links{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-item{
